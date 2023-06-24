@@ -6,7 +6,7 @@ const { createBot } = require("whatsapp-cloud-api");
     // replace the values below from the values you copied above
     const from = "118454207900411";
     const token =
-      "EAAg5CFjDGUUBAPJcXkiD4kJDdeXZCbVuZASUZCQH7ZCn1WCYwOjxk0ZBbB99ezkPKwl2x99otLT5TpjksK0dwHMQgKZAKmdA8AR6ALeqpApGJihgmd7xrCpBEwkimWYSYzRHgJAZA15eaVZANFiAD9Eo72uA2zwky9m3zxXiC27iNQ4qtoBm9aIpg7Qx7FJAeBio7XsOl8mk2qK6uXJ2Mgwx";
+      "EAAg5CFjDGUUBAOYqTo2MDPyYTWLK40jmQnn1WwyVO4RCcBwcOvFodP5yz3michf6lHu2zj7yfH4GaTmxuSwlE1DjHeeTZAeiwobAi02bbgiTPbxCQfTH3MZAQTcPrpQdoFPN9dAoSKVVgn8b4uX8giSbruIzUfFxECzKT6TeZArV3o4kY56ys9yclVHIt7DzaZCWT7pSxd3sUHpDX2ud";
     const to = "917208320766"; // your phone number without the leading '+'
     const webhookVerifyToken = "livnest"; // use a random value, e.g. 'bju#hfre@iu!e87328eiekjnfw'
 
