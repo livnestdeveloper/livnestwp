@@ -300,7 +300,7 @@ const { createBot } = require("whatsapp-cloud-api");
 
     // Fetch project data from the API
     async function fetchProjectData(projectId) {
-      const apiUrl = `http://localhost/project_api/?project_id=${projectId}`;
+      const apiUrl = `https://livnestwp.000webhostapp.com/?project_id=${projectId}`;
       try {
         const response = await axios.get(apiUrl);
         return response.data[0];
